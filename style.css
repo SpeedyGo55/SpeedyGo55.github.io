@@ -68,7 +68,7 @@ body {
   }
 }
 
-@media only screen and (hover: none) and (pointer: coarse) {
+@media screen and (pointer: coarse) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -76,7 +76,7 @@ body {
   }
 }
 
-@media only screen and (hover: none) and (pointer: coarse) {
+@media screen and (pointer: coarse) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
