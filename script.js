@@ -18,7 +18,7 @@ function hash(string) {
 }
 async function validatePassword(input) {
     pwHashed = await hash(input);
-    if (pwHashed == "e234dde9c5d8fcbfadc1b2ade875885112f8f542a22fb918ef4805527995adcd") {
+    if (pwHashed == "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4") {
         window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
     } else {
         document.getElementById('Output').innerHTML = "Access Denied";
