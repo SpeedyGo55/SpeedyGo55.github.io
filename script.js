@@ -19,7 +19,7 @@ function hash(string) {
 async function validatePassword(input) {
     pwHashed = await hash(input);
     if (pwHashed == "e234dde9c5d8fcbfadc1b2ade875885112f8f542a22fb918ef4805527995adcd") {
-        window.open("https://speedygo55.github.io/private");
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
     } else {
         document.getElementById('Output').innerHTML = "Access Denied";
     }
