@@ -2,7 +2,7 @@ function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
-  } else {
+  } else 
     x.className = "topnav";
   }
 }
@@ -15,4 +15,12 @@ function hash(string) {
       .join('');
     return hashHex;
   });
+}
+async function validatePassword(input) {
+    pwHashed = await hash(input);
+    if (pwHashed == "e234dde9c5d8fcbfadc1b2ade875885112f8f542a22fb918ef4805527995adcd") {
+        window.open("https://speedygo55.github.io/private");
+    } else {
+        document.getElementById('Output').innerHTML = "Access Denied";
+    }
 }
