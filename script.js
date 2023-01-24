@@ -18,8 +18,8 @@ function hash(string) {
 }
 async function validatePassword(input) {
     pwHashed = await hash(input);
-    if (pwHashed == "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4") {
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    if (pwHashed == "fe456f5c907b1247608b19b180ed74c8a2ecca2248adc3a7986365268a230d06") {
+        window.open("https://speedygo55.github.io/private");
     } else {
         document.getElementById('Output').innerHTML = "Access Denied";
     }
